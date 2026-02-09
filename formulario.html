@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria DAW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<!-- FORMULARIO  -->
+<body id="fondo">
+    <header class="header">
+        <h1>Café DAW</h1>
+        <nav class="menu">
+                <a href="#index">Inicio</a>
+                <a href="#">Productos</a>
+                <a href="#">Contacto</a>
+        </nav>
+        <!-- iNSERTAMOS LAS SECCIONES QUE QUEREMOS TENER EN NUESTRA WEB-->
+       
+        
+         <!-- Insertamos el formulario de nuestra web-->
+          <section>
+          <h1 id="titulo"> Formulario de solicitud de pedido</h1>
+          <form action="raul.rodriguez@universidadeuropea.es" method="post" id="formulario">
+            <!-- Datos personales -->
+            <fieldset class="seccion">
+                <legend>Datos personales</legend>
+                <label class="campo">
+                    Nombre <input type="text" class="entrada">
+                </label>
+                <label class="campo">
+                     Email <input type="email" class="entrada">
+                </label>
+                <label class="campo">
+                     Password <input type="password" class="entrada">
+                </label>
+            </fieldset>
+            <fieldset class="seccion">
+                <legend> Tipos de Cafe Disponible </legend>
+                <label><input type="radio" name="cafe">Espresso</label>
+                <label><input type="radio" name="cafe">Capuccino</label>
+                <label><input type="radio" name="cafe">Latte</label>
+            </fieldset>
+            <!-- Otros productos -->
+              <fieldset class="seccion">
+                <legend> Boleria de la Abuela </legend>
+                <label><input type="checkbox" name="Tarta de Manzana">Espresso</label>
+                <label><input type="checkbox" name="Muffin de Pistacho">Capuccino</label>
+                <label><input type="checkbox" name="Sobaos de la Casa ">Latte</label>
+            </fieldset>
+            <!-- Comentarios a tener en cuenta -->
+             <fieldset class="seccion">
+                <legend> Comentarios a tener en cuenta </legend>
+                <textarea name="entrada" rows="4"></textarea>
+             </fieldset>
+             <!-- botones -->
+              <div>
+                <button class="enviar" type="submit">Enviar</button>
+                <button class="borrar" type="reset">Borrar</button>
+              </div>
+          </form>
+          </section>
+         <footer class="footer">
+            @ 1 DAW Materia lenguaje de Marcas y Sistemas de Gestion
+         </footer>
+         
+    </header>
+
+    
+</body>
+</html>
